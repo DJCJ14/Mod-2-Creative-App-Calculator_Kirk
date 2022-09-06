@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E3E986C28C77C89004272A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E986B28C77C89004272A7 /* AppDelegate.swift */; };
+		7E3E986E28C77C89004272A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E986D28C77C89004272A7 /* SceneDelegate.swift */; };
+		7E3E987028C77C89004272A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E986F28C77C89004272A7 /* ViewController.swift */; };
+		7E3E987328C77C89004272A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E987128C77C89004272A7 /* Main.storyboard */; };
+		7E3E987528C77C89004272A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E987428C77C89004272A7 /* Assets.xcassets */; };
+		7E3E987828C77C89004272A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E987628C77C89004272A7 /* LaunchScreen.storyboard */; };
+		7E3E988328C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E988228C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkTests.swift */; };
+		7E3E988D28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E988C28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITests.swift */; };
+		7E3E988F28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E988E28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E3E987F28C77C89004272A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3E986028C77C88004272A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3E986728C77C89004272A7;
+			remoteInfo = "Mod 2 Creative App Calculator_Kirk";
+		};
+		7E3E988928C77C89004272A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3E986028C77C88004272A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E3E986728C77C89004272A7;
+			remoteInfo = "Mod 2 Creative App Calculator_Kirk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E3E986828C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mod 2 Creative App Calculator_Kirk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3E986B28C77C89004272A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E3E986D28C77C89004272A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E3E986F28C77C89004272A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E3E987228C77C89004272A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E3E987428C77C89004272A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3E987728C77C89004272A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3E987928C77C89004272A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3E987E28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mod 2 Creative App Calculator_KirkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3E988228C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod_2_Creative_App_Calculator_KirkTests.swift; sourceTree = "<group>"; };
+		7E3E988828C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mod 2 Creative App Calculator_KirkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3E988C28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod_2_Creative_App_Calculator_KirkUITests.swift; sourceTree = "<group>"; };
+		7E3E988E28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E3E986528C77C89004272A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E987B28C77C89004272A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E988528C77C89004272A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3E985F28C77C88004272A7 = {
+			isa = PBXGroup;
+			children = (
+				7E3E986A28C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */,
+				7E3E988128C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests */,
+				7E3E988B28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests */,
+				7E3E986928C77C89004272A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3E986928C77C89004272A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E986828C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk.app */,
+				7E3E987E28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests.xctest */,
+				7E3E988828C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3E986A28C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E986B28C77C89004272A7 /* AppDelegate.swift */,
+				7E3E986D28C77C89004272A7 /* SceneDelegate.swift */,
+				7E3E986F28C77C89004272A7 /* ViewController.swift */,
+				7E3E987128C77C89004272A7 /* Main.storyboard */,
+				7E3E987428C77C89004272A7 /* Assets.xcassets */,
+				7E3E987628C77C89004272A7 /* LaunchScreen.storyboard */,
+				7E3E987928C77C89004272A7 /* Info.plist */,
+			);
+			path = "Mod 2 Creative App Calculator_Kirk";
+			sourceTree = "<group>";
+		};
+		7E3E988128C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E988228C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkTests.swift */,
+			);
+			path = "Mod 2 Creative App Calculator_KirkTests";
+			sourceTree = "<group>";
+		};
+		7E3E988B28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E988C28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITests.swift */,
+				7E3E988E28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift */,
+			);
+			path = "Mod 2 Creative App Calculator_KirkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E3E986728C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3E989228C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_Kirk" */;
+			buildPhases = (
+				7E3E986428C77C89004272A7 /* Sources */,
+				7E3E986528C77C89004272A7 /* Frameworks */,
+				7E3E986628C77C89004272A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mod 2 Creative App Calculator_Kirk";
+			productName = "Mod 2 Creative App Calculator_Kirk";
+			productReference = 7E3E986828C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3E987D28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3E989528C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_KirkTests" */;
+			buildPhases = (
+				7E3E987A28C77C89004272A7 /* Sources */,
+				7E3E987B28C77C89004272A7 /* Frameworks */,
+				7E3E987C28C77C89004272A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3E988028C77C89004272A7 /* PBXTargetDependency */,
+			);
+			name = "Mod 2 Creative App Calculator_KirkTests";
+			productName = "Mod 2 Creative App Calculator_KirkTests";
+			productReference = 7E3E987E28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E3E988728C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3E989828C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_KirkUITests" */;
+			buildPhases = (
+				7E3E988428C77C89004272A7 /* Sources */,
+				7E3E988528C77C89004272A7 /* Frameworks */,
+				7E3E988628C77C89004272A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3E988A28C77C89004272A7 /* PBXTargetDependency */,
+			);
+			name = "Mod 2 Creative App Calculator_KirkUITests";
+			productName = "Mod 2 Creative App Calculator_KirkUITests";
+			productReference = 7E3E988828C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3E986028C77C88004272A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7E3E986728C77C89004272A7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7E3E987D28C77C89004272A7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7E3E986728C77C89004272A7;
+					};
+					7E3E988728C77C89004272A7 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 7E3E986728C77C89004272A7;
+					};
+				};
+			};
+			buildConfigurationList = 7E3E986328C77C88004272A7 /* Build configuration list for PBXProject "Mod 2 Creative App Calculator_Kirk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3E985F28C77C88004272A7;
+			productRefGroup = 7E3E986928C77C89004272A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3E986728C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */,
+				7E3E987D28C77C89004272A7 /* Mod 2 Creative App Calculator_KirkTests */,
+				7E3E988728C77C89004272A7 /* Mod 2 Creative App Calculator_KirkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E3E986628C77C89004272A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3E987828C77C89004272A7 /* LaunchScreen.storyboard in Resources */,
+				7E3E987528C77C89004272A7 /* Assets.xcassets in Resources */,
+				7E3E987328C77C89004272A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E987C28C77C89004272A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E988628C77C89004272A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E3E986428C77C89004272A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3E987028C77C89004272A7 /* ViewController.swift in Sources */,
+				7E3E986C28C77C89004272A7 /* AppDelegate.swift in Sources */,
+				7E3E986E28C77C89004272A7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E987A28C77C89004272A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3E988328C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3E988428C77C89004272A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3E988F28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITestsLaunchTests.swift in Sources */,
+				7E3E988D28C77C89004272A7 /* Mod_2_Creative_App_Calculator_KirkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E3E988028C77C89004272A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3E986728C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */;
+			targetProxy = 7E3E987F28C77C89004272A7 /* PBXContainerItemProxy */;
+		};
+		7E3E988A28C77C89004272A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E3E986728C77C89004272A7 /* Mod 2 Creative App Calculator_Kirk */;
+			targetProxy = 7E3E988928C77C89004272A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E3E987128C77C89004272A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3E987228C77C89004272A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3E987628C77C89004272A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3E987728C77C89004272A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E3E989028C77C89004272A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E3E989128C77C89004272A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E3E989328C77C89004272A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mod 2 Creative App Calculator_Kirk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-Kirk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E3E989428C77C89004272A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mod 2 Creative App Calculator_Kirk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-Kirk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E3E989628C77C89004272A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-KirkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mod 2 Creative App Calculator_Kirk.app/Mod 2 Creative App Calculator_Kirk";
+			};
+			name = Debug;
+		};
+		7E3E989728C77C89004272A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-KirkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mod 2 Creative App Calculator_Kirk.app/Mod 2 Creative App Calculator_Kirk";
+			};
+			name = Release;
+		};
+		7E3E989928C77C89004272A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-KirkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mod 2 Creative App Calculator_Kirk";
+			};
+			name = Debug;
+		};
+		7E3E989A28C77C89004272A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5442BN7PZ4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.Mod-2-Creative-App-Calculator-KirkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mod 2 Creative App Calculator_Kirk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E3E986328C77C88004272A7 /* Build configuration list for PBXProject "Mod 2 Creative App Calculator_Kirk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3E989028C77C89004272A7 /* Debug */,
+				7E3E989128C77C89004272A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3E989228C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_Kirk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3E989328C77C89004272A7 /* Debug */,
+				7E3E989428C77C89004272A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3E989528C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_KirkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3E989628C77C89004272A7 /* Debug */,
+				7E3E989728C77C89004272A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3E989828C77C89004272A7 /* Build configuration list for PBXNativeTarget "Mod 2 Creative App Calculator_KirkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3E989928C77C89004272A7 /* Debug */,
+				7E3E989A28C77C89004272A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3E986028C77C88004272A7 /* Project object */;
+}
